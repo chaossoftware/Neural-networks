@@ -15,7 +15,7 @@
     <description>
       The package contains base of neural networks, entities and implementation of activation functions.
     </description>
-    <releaseNotes>first release: base of neural networking (abstract network, layers and entities). 2 and 3 layer networks base. Neural net base for evolution process.</releaseNotes>
+    <releaseNotes>first release: base of neural networking (network interface, layers and entities). 2 and 3 layer networks base. Neural net base for evolution process.</releaseNotes>
     <tags>neural-network machine-learning ml</tags>
     <dependencies>
       <group targetFramework="netstandard2.0">
@@ -28,7 +28,7 @@
   </metadata>
   <files>
     <file src="..\..\README.md" target="docs\" />
-    <file src="..\..\THIRD-PARTY-NOTICES.txt" target="docs\" />
+    <file src="..\..\THIRD-PARTY-NOTICES.txt" target="content\" />
     <file src="..\..\icon.png" target="images\" />
     <file src="bin\Release\netstandard2.0\chaossoft.neuralnetwork.dll" target="lib\netstandard2.0" />
     <file src="bin\Release\netstandard2.0\chaossoft.neuralnetwork.xml" target="lib\netstandard2.0" />
